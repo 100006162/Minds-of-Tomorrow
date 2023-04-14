@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Calibri&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url('../img/banner-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-text {
+  font-family: 'Calibri', sans-serif;
+  font-size: 7rem;
+  color: black;
+  text-align: center;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.split-section {
+  display: flex;
+  width: 100%;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  padding: 2rem;
+}
+
+.left-side {
+    max-width: 80%; /* Ajustar el ancho máximo de la columna de texto */
+    margin: 0 auto; /* Centrar la columna de texto */
+    margin-left: 7rem;
+  }
+  
+.left-side h2 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 4rem; /* Cambiado el tamaño de fuente a 3rem */
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.left-side p {
+  font-family: 'Calibri', sans-serif;
+  font-size: 2rem; /* Cambiado el tamaño de fuente a 1.5rem */
+  color: black;
+}
+
+.right-side img {
+  width: 70%; /* Cambiado el tamaño a 70% */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centrar la imagen */
+}
